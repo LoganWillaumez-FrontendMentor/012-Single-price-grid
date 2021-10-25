@@ -3,9 +3,126 @@
   padding: 0;
   box-sizing: border-box;
 }
+// typography
+
+// Layout
 body {
   font-family: "Karla", sans-serif;
   background: #e6eff5;
   display: grid;
   place-items: center;
+  min-height: 100vh;
+  #container {
+    width: 311px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    max-width: 311px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 5px;
+
+    main {
+      padding: 28px 24px 32px 24px;
+      background: #ffffff;
+      h1 {
+        color: #2ab3b1;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.25px;
+        margin-bottom: 24px;
+      }
+      .sub-header {
+        font-size: 15px;
+        line-height: 20px;
+        color: #c0df33;
+        letter-spacing: -0.1875px;
+        margin-bottom: 16px;
+      }
+      .main-body {
+        font-size: 14px;
+        line-height: 26px;
+        color: #9aa7be;
+        letter-spacing: -0.175px;
+        @media only screen and (min-width: 640px) {
+          font-size: 16px;
+          letter-spacing: -0.2px;
+        }
+      }
+      @media only screen and (min-width: 640px) {
+        padding: 40px;
+      }
+    }
+    section {
+      > * {
+        padding: 24px;
+        h2 {
+          font-size: 18px;
+          letter-spacing: -0.225px;
+          color: #ffffff;
+          margin-bottom: 18px;
+        }
+      }
+      .first-article {
+        background: #2ab3b1;
+        .price1,
+        .price2,
+        .price-description {
+          color: #ffffff;
+        }
+        .price1 {
+          font-size: 32px;
+          line-height: 37px;
+          letter-spacing: -0.4px;
+          margin-right: 11px;
+        }
+        .price2 {
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.2px;
+          opacity: 0.5;
+        }
+        .month-price {
+          margin-bottom: 10px;
+        }
+
+        .price-description {
+          font-size: 16px;
+          letter-spacing: -0.2px;
+          margin-bottom: 26px;
+        }
+        .sign-up {
+          width: 263px;
+          height: 48px;
+          border: none;
+          background: #c0df33;
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+          color: #ffffff;
+          border-radius: 5px;
+        }
+      }
+      .second-article {
+        background: #00cac5;
+        .second-article-text {
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffffff;
+          opacity: 0.75;
+          letter-spacing: -0.175px;
+          padding-right: 60px;
+        }
+      }
+      @media only screen and (min-width: 640px) {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    @media only screen and (min-width: 640px) {
+      max-width: 635px;
+      flex-direction: row;
+    }
+  }
 }

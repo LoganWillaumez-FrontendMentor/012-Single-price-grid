@@ -11,5 +11,159 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  min-height: 100vh;
+}
+
+body #container {
+  width: 311px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  max-width: 311px;
+  -webkit-box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+          box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 5px;
+}
+
+body #container main {
+  padding: 28px 24px 32px 24px;
+  background: #ffffff;
+}
+
+body #container main h1 {
+  color: #2ab3b1;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  margin-bottom: 24px;
+}
+
+body #container main .sub-header {
+  font-size: 15px;
+  line-height: 20px;
+  color: #c0df33;
+  letter-spacing: -0.1875px;
+  margin-bottom: 16px;
+}
+
+body #container main .main-body {
+  font-size: 14px;
+  line-height: 26px;
+  color: #9aa7be;
+  letter-spacing: -0.175px;
+}
+
+@media only screen and (min-width: 640px) {
+  body #container main .main-body {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  body #container main {
+    padding: 40px;
+  }
+}
+
+body #container section > * {
+  padding: 24px;
+}
+
+body #container section > * h2 {
+  font-size: 18px;
+  letter-spacing: -0.225px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+body #container section .first-article {
+  background: #2ab3b1;
+}
+
+body #container section .first-article .price1,
+body #container section .first-article .price2,
+body #container section .first-article .price-description {
+  color: #ffffff;
+}
+
+body #container section .first-article .price1 {
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  margin-right: 11px;
+}
+
+body #container section .first-article .price2 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+
+body #container section .first-article .month-price {
+  margin-bottom: 10px;
+}
+
+body #container section .first-article .price-description {
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  margin-bottom: 26px;
+}
+
+body #container section .first-article .sign-up {
+  width: 263px;
+  height: 48px;
+  border: none;
+  background: #c0df33;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+body #container section .second-article {
+  background: #00cac5;
+}
+
+body #container section .second-article .second-article-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.75;
+  letter-spacing: -0.175px;
+  padding-right: 60px;
+}
+
+@media only screen and (min-width: 640px) {
+  body #container section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  body #container {
+    max-width: 635px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=style.css.map */
