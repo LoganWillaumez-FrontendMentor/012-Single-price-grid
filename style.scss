@@ -13,16 +13,11 @@ body {
   place-items: center;
   min-height: 100vh;
   #container {
-    width: 311px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    display: grid;
-    place-items: center;
     max-width: 311px;
     box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    background: #ffffff;
     border-radius: 5px;
+    overflow: hidden;
 
     main {
       padding: 28px 24px 32px 24px;
@@ -57,6 +52,8 @@ body {
       }
     }
     section {
+      width: 100%;
+
       > * {
         padding: 24px;
         h2 {
@@ -67,6 +64,8 @@ body {
         }
       }
       .first-article {
+        width: 100%;
+
         background: #2ab3b1;
         .price1,
         .price2,
@@ -105,6 +104,7 @@ body {
         }
       }
       .second-article {
+        width: 100%;
         background: #00cac5;
         .second-article-text {
           font-size: 14px;
