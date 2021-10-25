@@ -37,12 +37,25 @@ body #container main h1 {
   margin-bottom: 24px;
 }
 
+@media only screen and (min-width: 640px) {
+  body #container main h1 {
+    font-size: 24px;
+    letter-spacing: -0.3px;
+  }
+}
+
 body #container main .sub-header {
   font-size: 15px;
   line-height: 20px;
   color: #c0df33;
   letter-spacing: -0.1875px;
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  body #container main .sub-header {
+    font-size: 18px;
+  }
 }
 
 body #container main .main-body {
