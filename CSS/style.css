@@ -65,57 +65,57 @@ body #container main .main-body {
   }
 }
 
-body #container section {
+body #container article {
   width: 100%;
 }
 
-body #container section > * {
+body #container article > * {
   padding: 24px;
 }
 
-body #container section > * h2 {
+body #container article > * h2 {
   font-size: 18px;
   letter-spacing: -0.225px;
   color: #ffffff;
   margin-bottom: 18px;
 }
 
-body #container section .first-article {
+body #container article .first-article {
   width: 100%;
   background: #2ab3b1;
 }
 
-body #container section .first-article .price1,
-body #container section .first-article .price2,
-body #container section .first-article .price-description {
+body #container article .first-article .price1,
+body #container article .first-article .price2,
+body #container article .first-article .price-description {
   color: #ffffff;
 }
 
-body #container section .first-article .price1 {
+body #container article .first-article .price1 {
   font-size: 32px;
   line-height: 37px;
   letter-spacing: -0.4px;
   margin-right: 11px;
 }
 
-body #container section .first-article .price2 {
+body #container article .first-article .price2 {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.2px;
   opacity: 0.5;
 }
 
-body #container section .first-article .month-price {
+body #container article .first-article .month-price {
   margin-bottom: 10px;
 }
 
-body #container section .first-article .price-description {
+body #container article .first-article .price-description {
   font-size: 16px;
   letter-spacing: -0.2px;
   margin-bottom: 26px;
 }
 
-body #container section .first-article .sign-up {
+body #container article .first-article .sign-up {
   width: 263px;
   height: 48px;
   border: none;
@@ -131,17 +131,17 @@ body #container section .first-article .sign-up {
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
-body #container section .first-article .sign-up:hover {
+body #container article .first-article .sign-up:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
-body #container section .second-article {
+body #container article .second-article {
   width: 100%;
   background: #00cac5;
 }
 
-body #container section .second-article .second-article-text {
+body #container article .second-article .second-article-text {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -151,7 +151,7 @@ body #container section .second-article .second-article-text {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container section {
+  body #container article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
