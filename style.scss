@@ -12,6 +12,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  padding: 10px;
   #container {
     max-width: 311px;
     box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
@@ -19,7 +20,7 @@ body {
     border-radius: 5px;
     overflow: hidden;
 
-    main {
+    .main-content {
       padding: 28px 24px 32px 24px;
       background: #ffffff;
       h1 {
@@ -58,7 +59,7 @@ body {
         padding: 40px;
       }
     }
-    article {
+    .article {
       width: 100%;
 
       > * {

@@ -12,6 +12,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  padding: 10px;
 }
 
 body #container {
@@ -23,12 +24,12 @@ body #container {
   overflow: hidden;
 }
 
-body #container main {
+body #container .main-content {
   padding: 28px 24px 32px 24px;
   background: #ffffff;
 }
 
-body #container main h1 {
+body #container .main-content h1 {
   color: #2ab3b1;
   font-weight: bold;
   font-size: 20px;
@@ -38,13 +39,13 @@ body #container main h1 {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container main h1 {
+  body #container .main-content h1 {
     font-size: 24px;
     letter-spacing: -0.3px;
   }
 }
 
-body #container main .sub-header {
+body #container .main-content .sub-header {
   font-size: 15px;
   line-height: 20px;
   color: #c0df33;
@@ -53,12 +54,12 @@ body #container main .sub-header {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container main .sub-header {
+  body #container .main-content .sub-header {
     font-size: 18px;
   }
 }
 
-body #container main .main-body {
+body #container .main-content .main-body {
   font-size: 14px;
   line-height: 26px;
   color: #9aa7be;
@@ -66,27 +67,27 @@ body #container main .main-body {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container main .main-body {
+  body #container .main-content .main-body {
     font-size: 16px;
     letter-spacing: -0.2px;
   }
 }
 
 @media only screen and (min-width: 640px) {
-  body #container main {
+  body #container .main-content {
     padding: 40px;
   }
 }
 
-body #container article {
+body #container .article {
   width: 100%;
 }
 
-body #container article > * {
+body #container .article > * {
   padding: 24px;
 }
 
-body #container article > * h2 {
+body #container .article > * h2 {
   font-size: 18px;
   letter-spacing: -0.225px;
   color: #ffffff;
@@ -94,47 +95,47 @@ body #container article > * h2 {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container article > * {
+  body #container .article > * {
     padding: 40px;
   }
 }
 
-body #container article .first-article {
+body #container .article .first-article {
   width: 100%;
   background: #2ab3b1;
 }
 
-body #container article .first-article .price1,
-body #container article .first-article .price2,
-body #container article .first-article .price-description {
+body #container .article .first-article .price1,
+body #container .article .first-article .price2,
+body #container .article .first-article .price-description {
   color: #ffffff;
 }
 
-body #container article .first-article .price1 {
+body #container .article .first-article .price1 {
   font-size: 32px;
   line-height: 37px;
   letter-spacing: -0.4px;
   margin-right: 11px;
 }
 
-body #container article .first-article .price2 {
+body #container .article .first-article .price2 {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.2px;
   opacity: 0.5;
 }
 
-body #container article .first-article .month-price {
+body #container .article .first-article .month-price {
   margin-bottom: 10px;
 }
 
-body #container article .first-article .price-description {
+body #container .article .first-article .price-description {
   font-size: 16px;
   letter-spacing: -0.2px;
   margin-bottom: 26px;
 }
 
-body #container article .first-article .sign-up {
+body #container .article .first-article .sign-up {
   width: 263px;
   height: 48px;
   border: none;
@@ -150,24 +151,24 @@ body #container article .first-article .sign-up {
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
-body #container article .first-article .sign-up:hover {
+body #container .article .first-article .sign-up:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
 @media only screen and (min-width: 640px) {
-  body #container article .first-article .sign-up {
+  body #container .article .first-article .sign-up {
     width: 237px;
     height: 48px;
   }
 }
 
-body #container article .second-article {
+body #container .article .second-article {
   width: 100%;
   background: #00cac5;
 }
 
-body #container article .second-article .second-article-text {
+body #container .article .second-article .second-article-text {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -177,7 +178,7 @@ body #container article .second-article .second-article-text {
 }
 
 @media only screen and (min-width: 640px) {
-  body #container article {
+  body #container .article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
