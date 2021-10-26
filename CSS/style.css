@@ -12,7 +12,7 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  padding: 10px;
+  padding: 72px 32px 62px 32px;
 }
 
 body #container {
