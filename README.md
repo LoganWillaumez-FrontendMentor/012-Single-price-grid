@@ -11,6 +11,6 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/challenges/sin
   
 ## Demo
 
-https://loganwillaumez.github.io/Single-price-grid/
+https://loganwillaumez-frontendmentor.github.io/012-Single-price-grid/
 
   
